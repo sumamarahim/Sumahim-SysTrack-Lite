@@ -2,7 +2,7 @@
 # systrack.sh - Main script to start monitoring
 
 # Set log directory
-LOGDIR="/var/log/systrack-lite"
+LOGDIR="/var/log/sumahim-systrack-lite"
 mkdir -p "$LOGDIR"
 
 # Ensure logs are readable
