@@ -93,8 +93,45 @@ This tool logs sensitive user activity (commands, files, USB devices). Use it et
 - Lightweight system resource usage tracking
 - Web interface for log viewing
 
-## 🤝 Contributing
-Pull requests are welcome. Please open an issue first to discuss your proposed changes or ideas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🤝 Contribute to Sumahim SysTrack-Lite
+
+We’re building **Sumahim SysTrack-Lite** to help Linux users monitor system activity with a lightweight, open-source approach — no agents, no bloated dashboards.
+
+🚀 Whether you're a beginner in Bash or an experienced security engineer, you can contribute by:
+
+- 🐛 Reporting bugs
+- 💡 Suggesting features
+- 🛠️ Writing or refactoring scripts
+- 📖 Improving documentation
+- 🔒 Recommending security enhancements
+
+If you're interested in **cybersecurity**, **Linux internals**, or just love scripting, this is a great way to collaborate.
+
+📢 **First-time contributors welcome!** We follow a friendly and inclusive open-source approach.
+
+> Star 🌟 the repo, fork it, open an issue or PR — your contributions are appreciated!
+
+🔗 [GitHub Repo Link](https://github.com/sumamarahim/sumahim-systrack-lite)
+
+
+
+
+
 
 ## 📄 License
 MIT License — free to use, modify, and distribute.
