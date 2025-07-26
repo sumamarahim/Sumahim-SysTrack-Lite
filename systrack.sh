@@ -36,10 +36,21 @@ function start_program_logger() {
     echo "[+] Program execution logger started."
 }
 
+# Start command logger by ensuring .bashrc has logging settings
+function configure_bashrc() {
+    local bashrc="$HOME/.bashrc"
+    if ! grep -q HISTTIMEFORMAT "$bashrc"; then
+        echo "export HISTTIMEFORMAT=\"%F %T \"" >> "$bashrc"
+        echo "PROMPT_COMMAND='history -a'" >> "$bashrc"
+        echo "[+] .bashrc configured for command logging. Please restart terminal or source .bashrc."
+    fi
+}
+
 # Start all loggers
 start_file_watcher
 start_usb_logger
 start_program_logger
+configure_bashrc
 
 echo "[+] All monitors are now running in the background. Logs are in $LOGDIR."
 
