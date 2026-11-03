@@ -64,7 +64,7 @@ It logs key user and system activities using built-in Linux tools, without heavy
 ## 🛠️ Setup
 
 ```bash
-git clone https://github.com/yourusername/systrack-lite.git
+git clone https://github.com/sumamarahim/systrack-lite.git
 cd systrack-lite
 sudo bash setup.sh
 
